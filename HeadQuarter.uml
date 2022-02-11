@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.cigma.entities.support.HeadQuarter</OriginalElement>
+  <nodes>
+    <node x="13.0" y="0.0">org.cigma.entities.person.Person</node>
+    <node x="377.0" y="128.0">org.cigma.entities.branch.Branch</node>
+    <node x="0.0" y="194.0">org.cigma.entities.person.Student</node>
+    <node x="0.0" y="339.0">org.cigma.entities.support.HeadQuarter</node>
+    <node x="321.75" y="0.0">org.cigma.entities.branch.Identification</node>
+    <node x="206.0" y="139.0">org.cigma.entities.branch.BranchElement</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.cigma.entities.person.Student" target="org.cigma.entities.person.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="org.cigma.entities.branch.Branch" target="org.cigma.entities.branch.Identification" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="502.0" y="103.0" />
+      <point x="391.75" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="org.cigma.entities.branch.BranchElement" target="org.cigma.entities.branch.Identification" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="281.5" y="103.0" />
+      <point x="391.75" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="313.5" y="219.5" />
+  <SelectedNodes>
+    <node>org.cigma.entities.support.HeadQuarter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
